@@ -1,11 +1,15 @@
+/*---Body--*/
 body{
     background-image: url("img/background.webp");
+    background-repeat:repeat;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
 }
+/*--Wrap Class--*/
 .wrap{
     text-align:justify
 }
+/*--Img Class--*/
 .img{
     text-align: center;
 
