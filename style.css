@@ -1,0 +1,12 @@
+body{
+    background-image: url("img/background.webp");
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.wrap{
+    text-align:justify
+}
+.img{
+    text-align: center;
+
+}
