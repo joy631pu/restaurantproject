@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <head>
     <title>Delicious Inn</title>
-</head>
-<body>
-         
-    <!--Navigation Bar-->     
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>Delicious Inn</a>
-		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
-		        <span class="navbar-toggler-icon"></span>
-		      </button>
-	      <div class="collapse navbar-collapse" id="myTogglerNav">
+	      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>Inn<br><small>Delicious</small></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="menu.html" class="nav-link">Menu</a></li>
 	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
@@ -27,11 +46,551 @@
 	        </ul>
 	      </div>
 		  </div>
-	  </nav> <!--Navigation Bar Ends-->
-	
+	  </nav>
+    <!-- END nav -->
 
-<script src="js/jquery.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>    
-</body>
+    <section class="home-slider owl-carousel img" style="background-image: url(images/realbackground.jpg);">
+
+      <div class="slider-item" style="background-image: url(images/realbackground.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<h1 class="mb-3 mt-5 bread">Our Menu</h1>
+	            
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+		  <div class="col-md-7 heading-section ftco-animate text-center">
+			<h2 class="mb-4">New Items</h2>
+		  </div>
+		</div>
+		</div>
+		<div class="container-wrap">
+			<div class="row no-gutters d-flex">
+				<div class="col-lg-4 d-flex ftco-animate">
+					<div class="services-wrap d-flex">
+						<a href="#" class="img" style="background-image: url(images/pizza-1.jpg);"></a>
+						<div class="text p-4">
+							<h3>Spicy Capicollo Pizza</h3>
+							<p>Organic Tomato Sauce, spicy Italian sausage, capicollo, pepperoni, hot banana peppers, mozzarella + cheddar.</p>
+							<p class="price"><span>Extra-Large: $26.25</span></p> 
+							<p class="price"><span>Large: $22.25</span></p>
+							<p class="price"><span>Medium: $18.00</span></p>
+							<p class="price"><span>Small: $15.00</span></p>
+							<br>
+							<a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 d-flex ftco-animate">
+					<div class="services-wrap d-flex">
+						<a href="#" class="img" style="background-image: url(images/pizza-2.jpg);"></a>
+						<div class="text p-4">
+							<h3>Brooklyn Pepperoni Pizza</h3>
+							<p>Organic tomato sauce, mozzarella and layers of extra pepperoni.</p>
+							<p class="price"><span>Extra-Large: $22.00</span></p> 
+							<p class="price"><span>Large: $18.25</span></p>
+							<p class="price"><span>Medium: $15.50</span></p>
+							<p class="price"><span>Small: $13.00</span></p>
+							<br>
+							<p><a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 d-flex ftco-animate">
+					<div class="services-wrap d-flex">
+						<a href="#" class="img" style="background-image: url(images/pasta4.jpg);"></a>
+						<div class="text p-4">
+							<h3>Chicken and Mushroom Fettuccini Pasta</h3>
+							<p>Grilled chicken breast, mushrooms, tomatoes, and green onions, with Alfredo sauce.</p>
+							<p class="price"><span>$12.90</span></p>
+							<br>
+							<p><a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+						</div>
+					</div>
+				</div>
+  
+				<div class="col-lg-4 d-flex ftco-animate">
+					<div class="services-wrap d-flex">
+						<a href="#" class="img order-lg-last" style="background-image: url(images/pasta2.jpg);"></a>
+						<div class="text p-4">
+							<h3>Jambalaya Fettuccini Pasta</h3>
+							<p>Grilled chicken breast, shrimp, spicy Italian sausage, tomatoes, green peppers, green onions, Cajun seasoning, and marinara sauce.</p>
+							<p class="price"><span>$14.00</span></p>
+							<br>
+							 <p><a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 d-flex ftco-animate">
+					<div class="services-wrap d-flex">
+						<a href="#" class="img order-lg-last" style="background-image: url(images/burger-1.jpg);"></a>
+						<div class="text p-4">
+							<h3>BUTCHER’S BLOCK Burger</h3>
+							<p>Maple peppercorn bacon, smoked cheddar, crispy onion ring, chipotle aioli, iceberg lettuce, tomato, pickle</p>
+							<p class="price"><span>$11.50</span></p>
+							<br>
+							<p><a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 d-flex ftco-animate">
+					<div class="services-wrap d-flex">
+						<a href="#" class="img order-lg-last" style="background-image: url(images/burger5.jpg);"></a>
+						<div class="text p-4">
+							<h3>Grilled Chicken Clubhouse Sandwich</h3>
+							<p>Garlic cheese baked baguette layered with grilled chicken breast, bacon, lettuce, and tomatoes, drizzled with our secret sauce.</p>
+							<p class="price"><span>$14.50</span></p>
+							<br> 
+							<p><a href="#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </section>
+
+    <section class="ftco-menu">
+    	<div class="container-fluid">
+    		<div class="row d-md-flex">
+	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
+	    		</div>
+	    		<div class="col-lg-8 ftco-animate p-md-5">
+		    		<div class="row">
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
+
+		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Drinks</a>
+
+		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Burgers</a>
+
+		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Pasta</a>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center">
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+		              	<div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza10.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">New York Deli Pizza</a></h3>
+		              					<p>Organic tomato sauce, pepperoni, Genoa salami, bacon, Canadian ham, spicy Italian sausage, mozzarella + cheddar.</p>
+		              					<p class="price"><span>Extra-Large: $25.00</span></p> 
+							            <p class="price"><span>Large: $22.25</span></p>
+							            <p class="price"><span>Medium: $18.00</span></p>
+							            <p class="price"><span>Small: $15.25</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-8.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">BBQ Bacon Chicken Pizza</a></h3>
+		              					<p>BBQ sauce, grilled chicken, bacon, caramelized onions, red peppers, mozzarella + cheddar.</p>
+		              					<p class="price"><span>Extra-Large: $27.00</span></p> 
+							            <p class="price"><span>Large: $24.75</span></p>
+							            <p class="price"><span>Medium: $18.25</span></p>
+							            <p class="price"><span>Small: $15.50</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/bg_1.png);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Jerk Chicken Pizza</a></h3>
+		              					<p>Sweet and smoky tropical sauce, jerk chicken, red peppers, pineapple, fire-roasted corn, hot banana peppers, mozzarella, cheddar, and avocado cilantro drizzle.</p>
+		              					<p class="price"><span>Extra-Large: $25.15</span></p> 
+							            <p class="price"><span>Large: $22.75</span></p>
+							            <p class="price"><span>Medium: $18.25</span></p>
+							            <p class="price"><span>Small: $14.50</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+							  <div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-7.jpg);"></a>
+									<div class="text">
+										<h3><a href="#">Beyond Spicy Calabrese</a></h3>
+										<p>Organic tomato sauce, chilli flakes, Beyond Meat Italian sausage crumble, red onions, red peppers, hot banana peppers + mozzarella.</p>
+										<p class="price"><span>Extra-Large: $25.75</span></p> 
+							            <p class="price"><span>Large: $22.25</span></p>
+							            <p class="price"><span>Medium: $18.00</span></p>
+							            <p class="price"><span>Small: $14.50</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-1.jpg);"></a>
+									<div class="text">
+										<h3>Spicy Capicollo Pizza</h3>
+							            <p>Organic Tomato Sauce, spicy Italian sausage, capicollo, pepperoni, hot banana peppers, mozzarella + cheddar.</p>
+							            <p class="price"><span>Extra-Large: $26.25</span></p> 
+							            <p class="price"><span>Large: $22.25</span></p>
+							            <p class="price"><span>Medium: $18.00</span></p>
+							            <p class="price"><span>Small: $15.00</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-2.jpg);"></a>
+									<div class="text">
+										<h3>Brooklyn Pepperoni Pizza</h3>
+							            <p>Organic tomato sauce, mozzarella and layers of extra pepperoni.</p>
+							            <p class="price"><span>Extra-Large: $22.00</span></p> 
+							            <p class="price"><span>Large: $18.25</span></p>
+							            <p class="price"><span>Medium: $15.50</span></p>
+							            <p class="price"><span>Small: $13.00</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Orange Crush</a></h3>
+		              					<p class="price"><span>ORANGE CRUSH - 591 ML / $2.50</span></p> 
+							            <p class="price"><span>ORANGE CRUSH - 6 PACK (6 X 591 ML) / $13.50</span></p>
+							            <p class="price"><span>ORANGE CRUSH - 2L / $3.90</span></p>
+							            <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pepsi.jpg);"></a>
+		              				<div class="text">
+										<h3><a href="#">Diet Pepsi</a></h3>
+										<p class="price"><span>DIET PEPSI - 591 ML / $2.50</span></p> 
+									    <p class="price"><span>DIET PEPSI - 6 PACK (6 X 591 ML) / $13.50</span></p>
+									    <p class="price"><span>DIET PEPSI - 2L / $3.90</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/lipton_brisk.png);"></a>
+		              				<div class="text">
+										<h3><a href="#">Lipton Brisk Iced Tea</a></h3>
+										<p class="price"><span>LIPTON BRISK ICED TEA - 591 ML / $2.50</span></p> 
+									    <p class="price"><span>LIPTON BRISK ICED TEA - 6 PACK (6 X 591 ML) / $13.50</span></p>
+									    <p class="price"><span>LIPTON BRISK ICED TEA - 2L / $3.90</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+							  <div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/bubly.jpg);"></a>
+									<div class="text">
+										<h3><a href="#">Bubly Blackberry</a></h3>
+										<p class="price"><span>BUBLY BLACKBERRY - CAN 473 ML / $2.65</span></p> 
+									    
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pepper.PNG);"></a>
+									<div class="text">
+										<h3><a href="#">Dr. Pepper</a></h3>
+										<p class="price"><span>DR. PEPPER - 591 ML / $2.50</span></p> 
+										<p class="price"><span>DR. PEPPER - 6 PACK (6 X 591 ML) / $13.50</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/San-pellegrini.jpg);"></a>
+									<div class="text">
+										<h3><a href="#">San Pellegrino</a></h3>
+										<p class="price"><span>SAN PELLEGRINO SPARKLING WATER - 250 ML / $1.90</span></p> 
+										<p class="price"><span>SAN PELLEGRINO SPARKLING WATER - 750 ML / $3.75</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-1.jpg);"></a>
+		              				<div class="text">
+										<h3>BUTCHER’S BLOCK Burger</h3>
+										<p>Maple peppercorn bacon, smoked cheddar, crispy onion ring, chipotle aioli, iceberg lettuce, tomato, pickle</p>
+										<p class="price"><span>$11.50</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger5.jpg);"></a>
+		              				<div class="text">
+										<h3>Grilled Chicken Clubhouse Sandwich</h3>
+										<p>Garlic cheese baked baguette layered with grilled chicken breast, bacon, lettuce, and tomatoes, drizzled with our secret sauce.</p>
+										<p class="price"><span>$14.50</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Honey Dill Fried Chicken Sandwich</a></h3>
+		              					<p>Buttermilk-breaded fried chicken breast, topped with house-made honey dill sauce, bacon, lettuce, tomato, and pickles, on a toasted brioche bun.</p>
+		              					<p class="price"><span>$12.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+							  <div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger7.PNG);"></a>
+									<div class="text">
+										<h3><a href="#">BBQ Bacon Burger</a></h3>
+										<p>Contains: Milk, Eggs, Soy, Wheat, Mustard, Sesame</p>
+										<p class="price"><span>$12.50</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-2.jpg);"></a>
+									<div class="text">
+										<h3><a href="#">Bacon Cheeseburger</a></h3>
+										<p>Contains: Milk, Soy, Wheat, Sesame</p>
+										<p class="price"><span>$10.00</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger10.PNG);"></a>
+									<div class="text">
+										<h3><a href="#">Spicy Original Chicken Burger</a></h3>
+										<p>Contains: Milk, Soy, Wheat, Sesame</p>
+										<p class="price"><span>$14.00</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/spaghetti.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Smoky Mountain Spaghetti & Meatballs</a></h3>
+		              					<p>A mountainous serving of spaghetti smothered in Bolognese sauce, then topped with three meatballs, cheddar, and Parmesan.</p>
+		              					<p class="price"><span>$12.50</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Original Lasagna</a></h3>
+		              					<p>A baked combination of beefy Bolognese sauce, lasagna noodles and pizza mozzarella, with freshly grated Parmesan.</p>
+		              					<p class="price"><span>$9.50</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="#">Baked Seven-Cheese Ravioli</a></h3>
+		              					<p>Ravioli stuffed with Parmesan, Emmental, ricotta, fontina, and Romano, baked with pizza mozzarella and cheddar. Served with your choice of beefy Bolognese or marinara sauce.</p>
+		              					<p class="price"><span>$10.00</span></p>
+		              					<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta2.jpg);"></a>
+									<div class="text">
+										<h3>Jambalaya Fettuccini Pasta</h3>
+							            <p>Grilled chicken breast, shrimp, spicy Italian sausage, tomatoes, green peppers, green onions, Cajun seasoning, and marinara sauce.</p>
+							            <p class="price"><span>$14.00</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta4.jpg);"></a>
+									<div class="text">
+										<h3>Chicken and Mushroom Fettuccini Pasta</h3>
+						                <p>Grilled chicken breast, mushrooms, tomatoes, and green onions, with Alfredo sauce.</p>
+						                <p class="price"><span>$12.90</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pastashrimp.jpg);"></a>
+									<div class="text">
+										<h3><a href="#">Shrimp Alfredo</a></h3>
+										<p>Garlic sautéed shrimp tossed with spaghetti in a Parmesan white wine Alfredo sauce with fresh spinach and cherry tomatoes. Finished with Parmesan and a zest of lime.</p>
+										<p class="price"><span>$11.50</span></p>
+										<p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+									</div>
+								</div>
+							</div>
+		              	</div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+
+    <footer class="ftco-footer ftco-section img">
+		<div class="overlay"></div>
+	  <div class="container">
+		<div class="row mb-5">
+		  <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+			<div class="ftco-footer-widget mb-4">
+			  <h2 class="ftco-heading-2">About Us</h2>
+			  <p>Through 20 years of innovation <span>Delicious Inn</span> has developed Fast-food recipes that reflect consumer trends.</p>
+			  <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+				<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+				<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+				<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+			<div class="ftco-footer-widget mb-4">
+			  <h2 class="ftco-heading-2">Recent Blog</h2>
+			  <div class="block-21 mb-4 d-flex">
+				<a class="blog-img mr-4" style="background-image: url(images/blog1.PNG);"></a>
+				<div class="text">
+				  <h3 class="heading"><a href="#">INVESTING IN CHILDREN BOOK CAMP</a></h3>
+				  <div class="meta">
+					<div><a href="#"><span class="icon-calendar"></span> Sept 15, 2022</a></div>
+					<div><a href="#"><span class="icon-person"></span> Admin</a></div>
+					<div><a href="#"><span class="icon-chat"></span> 3</a></div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="block-21 mb-4 d-flex">
+				<a class="blog-img mr-4" style="background-image: url(images/blog2.PNG);"></a>
+				<div class="text">
+				  <h3 class="heading"><a href="#">PIZZA AT THE COMOX MALL</a></h3>
+				  <div class="meta">
+					<div><a href="#"><span class="icon-calendar"></span> Sept 20, 2022</a></div>
+					<div><a href="#"><span class="icon-person"></span> Admin</a></div>
+					<div><a href="#"><span class="icon-chat"></span> 3</a></div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+			 <div class="ftco-footer-widget mb-4 ml-md-4">
+			  <h2 class="ftco-heading-2">Services</h2>
+			  <ul class="list-unstyled">
+				<li><a href="#" class="py-2 d-block">Healthy Foods</a></li>
+				<li><a href="#" class="py-2 d-block">Sustainable Boxes</a></li>
+				<li><a href="#" class="py-2 d-block">Original recipes</a></li>
+				
+			  </ul>
+			</div>
+		  </div>
+		  <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+			<div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Have a Questions?</h2>
+				<div class="block-23 mb-3">
+				  <ul>
+					<li><span class="icon icon-map-marker"></span><span class="text">2040 Comox Ave, Comox, BC V9M 3M6</span></li>
+					<li><a href="#"><span class="icon icon-phone"></span><span class="text">+1 778 992 5677</span></a></li>
+					<li><a href="#"><span class="icon icon-envelope"></span><span class="text">deliciousinn@outlook.com</span></a></li>
+				  </ul>
+				</div>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col-md-12 text-center">
+  
+			<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+		  </div>
+		</div>
+	  </div>
+	</footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
