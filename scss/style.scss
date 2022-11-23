@@ -28,9 +28,7 @@ $secondary: #f8b500;
     transition:         all $transition ease;
 }
 
-html {
-	// overflow-x: hidden;
-}
+
 body {
 	font-family: $font-primary;
 	background: $darken;
@@ -1831,6 +1829,7 @@ textarea.form-control {
 		font-size: 15px;
 	}
 	#map {
+		
 	}
 }
 
