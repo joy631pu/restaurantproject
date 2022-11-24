@@ -28,7 +28,7 @@ $secondary: #f8b500;
     transition:         all $transition ease;
 }
 
-
+/*--Body--*/
 body {
 	font-family: $font-primary;
 	background: $darken;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-//OWL CAROUSEL
+/*--CAROUSEL--*/ 
 .owl-carousel {
 	position: relative;
 	.owl-item {
@@ -534,7 +534,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-//BUTTON
+/*--Button--*/ 
 .btn {
 	cursor: pointer;
 	@include border-radius(0);
@@ -598,7 +598,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-//INTRO
+/*--Intro--*/ 
 .ftco-intro{
 	.wrap{
 		width: 100%;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5,
 
 
 
-//ABOUT
+/*--About--*/ 
 .ftco-about{
 	.one-half{
 		width: 100%;
@@ -678,7 +678,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-//SERVICES
+/*--Services--*/ 
 .ftco-services{
 	background: url(../images/food.png) repeat;
 	color: darken($primary,50%);
@@ -775,7 +775,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-//GALLERY
+/*--Gallery--*/ 
 .ftco-gallery{
 	padding-top: 7em;
 }
@@ -818,7 +818,7 @@ h1, h2, h3, h4, h5,
 	}	
 }
 
-//PRICING
+/*--Pricing--*/ 
 .pricing-entry{
 	width: 100%;
 	display: block;
@@ -870,7 +870,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-//MENU
+/*--Menu--*/ 
 .ftco-menu{
 	.f-menu-img{
 		@include media-breakpoint-down(md){
@@ -903,7 +903,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-//APPOINTMENT
+/*--Email Subcription--*/ 
 .ftco-appointment{
 	width: 100%;
 	position: relative;
@@ -982,56 +982,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-//STAFF
-.staff{
-	padding: 25px;
-	bordeR: 1px solid darken($primary,50%);
-	@include border-radius(4px);
-	@include transition(.3s);
-	@include media-breakpoint-down(sm){
-		margin-bottom: 30px;
-	}
-	.info{
-		width: 100%;
-		h3{
-			font-size: 15px;
-			text-transform: uppercase;
-			a{
-				color: $primary;
-			}
-		}
-		span.position{
-			display: block;
-			margin-bottom: 15px;
-			font-size: 12px;
-			font-weight: 400;
-			color: lighten($black,80%);
-		}
-	}
-	.img{
-		width: 140px;
-		height: 140px;
-		border: 1px solid darken($primary,40%);
-		margin: 0 auto;
-		@include border-radius(50%);
-		@include transition(.3s);
-	}
-	.text{
-		p{
-		}
-	}
-	&:hover, &:focus{
-		-webkit-box-shadow: 0px 3px 66px -24px rgba(0,0,0,0.2);
-		-moz-box-shadow: 0px 3px 66px -24px rgba(0,0,0,0.2);
-		box-shadow: 0px 3px 66px -24px rgba(0,0,0,0.2);
-		border: 1px solid $primary;
-		.img{
-			border: 1px solid $primary;
-		}
-	}
-}
-
-
+/*--Social Icon--*/ 
 .ftco-social{
 	a{
 		width: 30px;
@@ -1049,7 +1000,7 @@ h1, h2, h3, h4, h5,
 
 
 
-// USEFUL CODE
+
 .form-control {
 	height: 58px!important;
 	background: transparent!important;
@@ -1148,18 +1099,15 @@ textarea.form-control {
 
 
 
-//ABOUT
+/*--About--*/ 
 .about-author{
-	img{
-	}
+	
 	.desc{
 		h3{
 			font-size: 24px;
 		}
 	}
-	.bio{
-
-	}
+	
 }
 
 
@@ -1175,7 +1123,7 @@ textarea.form-control {
 	background: $black;
 }
 
-
+/*--Footer--*/ 
 .ftco-footer {
 	font-size: 16px;
 	padding: 7em 0;
@@ -1281,7 +1229,7 @@ textarea.form-control {
 	}
 }
 
-// Map
+/*--Map--*/ 
 
 #map {
 	// height: 500px;
@@ -1437,7 +1385,7 @@ textarea.form-control {
 	}
 }
 
-//COVER BG
+/*--Background Cover--*/ 
 .hero-wrap,
 .img,
 .blog-img,
@@ -1579,8 +1527,7 @@ textarea.form-control {
 	position: relative;
 	width: 100%;
 	display: block;
-	.nav-link-wrap{
-	}
+	
 	.nav-pills{
 		p{
 			margin-bottom: 0;
@@ -1617,10 +1564,7 @@ textarea.form-control {
 			}
 		}
 	}
-	.tab-content{
-		.tab-pane{
-		}
-	}
+	
 }
 
 //blocks 
@@ -1704,27 +1648,14 @@ textarea.form-control {
 
 .block-6 {
 	margin-bottom: 40px;
-	.icon {
-		span {
-			&:before {
-			}
-		}
-	}
-	.media-body {
-		.heading {
-
-		}
-		p {
-		}
-	}
+	
 } 
 
 
 
 //### .block-18 
 .block-18 {
-	.icon, .text {
-	}
+	
 	.icon {
 		> span {
 			font-size: 40px;
@@ -1741,7 +1672,7 @@ textarea.form-control {
 }
 
 
-//PAGINATION
+/*--Pagination--*/ 
 .block-27 {
 	ul {
 		padding: 0;
@@ -1828,9 +1759,7 @@ textarea.form-control {
 		box-shadow: none!important;
 		font-size: 15px;
 	}
-	#map {
-		
-	}
+	
 }
 
 
@@ -1914,7 +1843,7 @@ textarea.form-control {
 	}
 }
 
-/* Blog*/
+/*--Blog--*/
 .post-info {
 	font-size: 12px;
 	text-transform: uppercase;
@@ -2040,7 +1969,7 @@ textarea.form-control {
 }
 
 
-// sidebar
+/*--Sidebar--*/ 
 
 .sidebar-box {
 	margin-bottom: 30px;

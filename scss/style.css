@@ -7944,6 +7944,7 @@ h3 {
     border: 1px solid #dee2e6 !important;
   }
 }
+/*--Body--*/
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #121618;
@@ -8191,6 +8192,7 @@ h1, h2, h3, h4, h5,
   letter-spacing: 4px;
 }
 
+/*--CAROUSEL--*/
 .owl-carousel {
   position: relative;
 }
@@ -8420,6 +8422,7 @@ h1, h2, h3, h4, h5,
   background: #fac564;
 }
 
+/*--Button--*/
 .btn {
   cursor: pointer;
   border-radius: 0;
@@ -8482,6 +8485,7 @@ h1, h2, h3, h4, h5,
   color: #fff;
 }
 
+/*--Intro--*/
 .ftco-intro .wrap {
   width: 100%;
 }
@@ -8545,6 +8549,7 @@ h1, h2, h3, h4, h5,
   font-size: 20px;
 }
 
+/*--About--*/
 .ftco-about .one-half {
   width: 100%;
   padding: 30px 15px;
@@ -8564,6 +8569,7 @@ h1, h2, h3, h4, h5,
   }
 }
 
+/*--Services--*/
 .ftco-services {
   background: url(../images/food.png) repeat;
   color: #5c3d03;
@@ -8653,6 +8659,7 @@ h1, h2, h3, h4, h5,
   color: #fac564;
 }
 
+/*--Gallery--*/
 .ftco-gallery {
   padding-top: 7em;
 }
@@ -8694,6 +8701,7 @@ h1, h2, h3, h4, h5,
   transform: rotate(135deg);
 }
 
+/*--Pricing--*/
 .pricing-entry {
   width: 100%;
   display: block;
@@ -8745,6 +8753,7 @@ h1, h2, h3, h4, h5,
   font-size: 16px;
 }
 
+/*--Menu--*/
 @media (max-width: 991.98px) {
   .ftco-menu .f-menu-img {
     height: 300px;
@@ -8772,6 +8781,7 @@ h1, h2, h3, h4, h5,
   color: #fac564;
 }
 
+/*--Email Subcription--*/
 .ftco-appointment {
   width: 100%;
   position: relative;
@@ -8853,50 +8863,7 @@ h1, h2, h3, h4, h5,
   height: inherit !important;
 }
 
-.staff {
-  padding: 25px;
-  bordeR: 1px solid #5c3d03;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-@media (max-width: 767.98px) {
-  .staff {
-    margin-bottom: 30px;
-  }
-}
-.staff .info {
-  width: 100%;
-}
-.staff .info h3 {
-  font-size: 15px;
-  text-transform: uppercase;
-}
-.staff .info h3 a {
-  color: #fac564;
-}
-.staff .info span.position {
-  display: block;
-  margin-bottom: 15px;
-  font-size: 12px;
-  font-weight: 400;
-  color: #cccccc;
-}
-.staff .img {
-  width: 140px;
-  height: 140px;
-  border: 1px solid #8d5d05;
-  margin: 0 auto;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-.staff:hover, .staff:focus {
-  box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
-  border: 1px solid #fac564;
-}
-.staff:hover .img, .staff:focus .img {
-  border: 1px solid #fac564;
-}
-
+/*--Social Icon--*/
 .ftco-social a {
   width: 30px;
   height: 30px;
@@ -9013,9 +8980,11 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 
+/*--About--*/
 .about-author .desc h3 {
   font-size: 24px;
 }
+
 .ftco-section {
   padding: 7em 0;
   position: relative;
@@ -9030,6 +8999,7 @@ textarea.form-control {
   background: #000;
 }
 
+/*--Footer--*/
 .ftco-footer {
   font-size: 16px;
   padding: 7em 0;
@@ -9118,6 +9088,7 @@ textarea.form-control {
   color: #fff;
 }
 
+/*--Map--*/
 #map {
   width: 100%;
 }
@@ -9267,6 +9238,7 @@ textarea.form-control {
   margin: 0 auto;
 }
 
+/*--Background Cover--*/
 .hero-wrap,
 .img,
 .blog-img,
@@ -9428,6 +9400,7 @@ textarea.form-control {
     margin-bottom: 5px;
   }
 }
+
 .block-20 {
   overflow: hidden;
   background-size: cover;
@@ -9505,6 +9478,7 @@ textarea.form-control {
 .block-6 {
   margin-bottom: 40px;
 }
+
 .block-18 .icon > span {
   font-size: 40px;
 }
@@ -9515,6 +9489,7 @@ textarea.form-control {
   display: block;
 }
 
+/*--Pagination--*/
 .block-27 ul {
   padding: 0;
   margin: 0;
@@ -9583,6 +9558,7 @@ textarea.form-control {
   box-shadow: none !important;
   font-size: 15px;
 }
+
 .block-21 .blog-img {
   display: block;
   height: 80px;
@@ -9652,7 +9628,7 @@ textarea.form-control {
   float: right;
 }
 
-/* Blog*/
+/*--Blog--*/
 .post-info {
   font-size: 12px;
   text-transform: uppercase;
@@ -9772,6 +9748,7 @@ textarea.form-control {
   transform: translateY(-50%);
 }
 
+/*--Sidebar--*/
 .sidebar-box {
   margin-bottom: 30px;
   padding: 25px;
