@@ -18,7 +18,7 @@ B. Content
 1 - Below Expectations - Content not related to assignment or project
 2 - Meets Expectations - Content is related to assignment or project and gets the point across
 3 - Exceeds Expectations - Content is exceptionally detailed and well put together
-Your Answer:2
+Your Answer:3
 
 
 C. Layout / Organization 
@@ -65,4 +65,18 @@ G. Self Evaluation Questions (half point each):
 4. What things would you like to learn more about after having worked on this assignment?
    I would like to learn more about Javascript as Javascript is very important for web development.
 
-Total Score:18/20
+Total Score:19/20
+
+Changes that I made:
+I changed the carousel items of each page of my project so that audiences can easily understand on which page they are currently scrolling.
+
+Reflection:
+I learned so many necessary lessons regarding website design and development in this course including CSS, CSS Animations,Bootstrap,SASS,Clean Code rules,How to cope with agile development etc.
+I enjoyed all of the assignments and class participations but I didn't like the quizzes.
+If I had the authority to change the curriculum of the course then I would assign 20% of the course grade to quizzes rather than 32%.
+I want to keep all of the tutorials that I got in this semester because all of them are necessary.
+In my opinion, the workload was appropriate for a college class.
+I didn't spend enough time on reading materials of the course.
+Lastly, I am feeling confident and ready to tackle a project on my own.
+
+
